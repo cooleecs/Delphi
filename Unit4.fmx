@@ -1,0 +1,80 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = 'Form4'
+  ClientHeight = 526
+  ClientWidth = 348
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object TabControl1: TTabControl
+    Align = Contents
+    Size.Width = 348.000000000000000000
+    Size.Height = 526.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 2
+    TabOrder = 0
+    TabPosition = Bottom
+    Sizes = (
+      348s
+      477s
+      348s
+      477s
+      348s
+      477s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 116.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #39135#22530#20154#25968
+      object WebBrowser1: TWebBrowser
+        Align = Client
+        Size.Width = 348.000000000000000000
+        Size.Height = 477.000000000000000000
+        Size.PlatformDefault = False
+        URL = 'http://jczs.ucas.ac.cn/dining-index/openHomePage4Mob'
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 116.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #39135#22530#35746#39184
+      object WebBrowser2: TWebBrowser
+        Align = Client
+        Size.Width = 348.000000000000000000
+        Size.Height = 477.000000000000000000
+        Size.PlatformDefault = False
+        URL = 
+          'http://sjdcxt.ucas.ac.cn/weiXinCY/weixinWM-weixin?openid=oaBxI0k' +
+          'x4IkG_KnwlAKCxFK3msUs&orgCode=&kh=2999922683'
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 116.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #33756#21697#35780#20215
+    end
+  end
+end

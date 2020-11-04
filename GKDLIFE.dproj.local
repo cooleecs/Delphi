@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/10/21 19:42:38.000.703,=C:\Users\20382\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/10/21 21:23:23.000.314,=C:\Users\20382\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/10/21 21:23:46.000.923,C:\Users\20382\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\20382\Documents\Embarcadero\Studio\Projects\DB.dfm</Transaction>
+    <Transaction>2020/10/21 21:23:46.000.923,C:\Users\20382\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\20382\Documents\Embarcadero\Studio\Projects\DB.pas</Transaction>
+    <Transaction>2020/10/21 22:12:52.000.821,C:\Users\20382\Documents\Embarcadero\Studio\Projects\Unit1.pas=F:\Delphi程序\GKDLIFE\Unit1.pas</Transaction>
+    <Transaction>2020/10/21 22:12:52.000.821,C:\Users\20382\Documents\Embarcadero\Studio\Projects\Unit1.fmx=F:\Delphi程序\GKDLIFE\Unit1.fmx</Transaction>
+    <Transaction>2020/10/21 22:12:56.000.041,C:\Users\20382\Documents\Embarcadero\Studio\Projects\DB.pas=F:\Delphi程序\GKDLIFE\DB.pas</Transaction>
+    <Transaction>2020/10/21 22:12:56.000.041,C:\Users\20382\Documents\Embarcadero\Studio\Projects\DB.dfm=F:\Delphi程序\GKDLIFE\DB.dfm</Transaction>
+    <Transaction>2020/10/21 22:13:10.000.006,C:\Users\20382\Documents\Embarcadero\Studio\Projects\Project1.dproj=F:\Delphi程序\GKDLIFE\GKDLIFE.dproj</Transaction>
+    <Transaction>2020/10/22 16:43:26.000.477,=F:\Delphi程序\GKDLIFE\SG.ScriptGate.pas</Transaction>
+    <Transaction>2020/10/24 11:48:47.000.429,=F:\Delphi程序\GKDLIFE\Unit2.pas</Transaction>
+    <Transaction>2020/10/24 11:49:18.000.357,=F:\Delphi程序\GKDLIFE\Unit2.pas</Transaction>
+    <Transaction>2020/10/26 16:39:14.000.851,=F:\Delphi程序\GKDLIFE\Unit3.pas</Transaction>
+    <Transaction>2020/10/26 16:42:07.000.159,=F:\Delphi程序\GKDLIFE\Unit4.pas</Transaction>
+    <Transaction>2020/10/26 17:44:14.000.644,=F:\Delphi程序\GKDLIFE\Unit5.pas</Transaction>
+    <Transaction>2020/10/26 19:09:20.000.765,=F:\Delphi程序\GKDLIFE\Unit6.pas</Transaction>
+    <Transaction>2020/10/27 09:34:43.000.494,=F:\Delphi程序\GKDLIFE\Unit7.pas</Transaction>
+    <Transaction>2020/10/27 09:41:44.000.997,F:\Delphi程序\GKDLIFE\Unit7.pas=F:\Delphi程序\GKDLIFE\login.pas</Transaction>
+    <Transaction>2020/10/27 09:41:44.000.997,F:\Delphi程序\GKDLIFE\Unit7.fmx=F:\Delphi程序\GKDLIFE\login.fmx</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
+	</ActiveMobileDevice>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-analytics-v2.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="google-play-services.dex.jar"/>
+    <File Path="DB.pas"/>
+    <File Path="DB.dfm"/>
+    <File Path="SG.ScriptGate.pas"/>
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.fmx"/>
+    <File Path="Unit2.pas"/>
+    <File Path="Unit2.fmx"/>
+    <File Path="Unit3.pas"/>
+    <File Path="Unit3.fmx"/>
+    <File Path="Unit4.pas"/>
+    <File Path="Unit4.fmx"/>
+    <File Path="Unit5.pas"/>
+    <File Path="Unit5.fmx"/>
+    <File Path="Unit6.pas"/>
+    <File Path="login.pas"/>
+    <File Path="login.fmx"/>
+  </ProjectSortOrder>
+</BorlandProject>

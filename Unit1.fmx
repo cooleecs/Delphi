@@ -1,0 +1,362 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 554
+  ClientWidth = 364
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  DesignerMasterStyle = 3
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 364.000000000000000000
+    Size.Height = 504.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = Bottom
+    Sizes = (
+      364s
+      455s
+      364s
+      455s
+      364s
+      455s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 121.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #23548#33322
+      ExplicitSize.cx = 157.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object WebBrowser1: TWebBrowser
+        Align = Client
+        Size.Width = 364.000000000000000000
+        Size.Height = 405.000000000000000000
+        Size.PlatformDefault = False
+        URL = 'http://www.coolee.top/web/lonlatsearch.html'
+      end
+      object Layout2: TLayout
+        Align = Top
+        Size.Width = 364.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Button1: TButton
+          Align = Right
+          Position.X = 291.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = #23548#33322
+          OnClick = Button1Click
+        end
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Left
+          TabOrder = 1
+          Position.Y = 9.000000000000000000
+          Size.Width = 233.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      OnTap = TabItem2Tap
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 121.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #20849#20139
+      OnClick = TabItem2Click
+      ExplicitSize.cx = 157.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout1: TLayout
+        Align = Top
+        Size.Width = 364.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Label1: TLabel
+          Align = Left
+          Size.Width = 145.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          Text = ' '#24320#21551#23450#20301#21151#33021
+          TabOrder = 0
+        end
+        object Switch1: TSwitch
+          Align = Right
+          IsChecked = True
+          Margins.Right = 5.000000000000000000
+          Position.X = 315.000000000000000000
+          Position.Y = 12.000000000000000000
+          Size.Width = 44.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'switchstyle'
+          TabOrder = 1
+          OnSwitch = Switch1Switch
+        end
+      end
+      object Layout3: TLayout
+        Align = Top
+        Position.Y = 49.000000000000000000
+        Size.Width = 364.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Label2: TLabel
+          Align = Left
+          Size.Width = 113.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Text = ' '#24403#21069#32463#32428#24230
+          TabOrder = 0
+        end
+        object Label3: TLabel
+          Align = Client
+          Margins.Right = 5.000000000000000000
+          Size.Width = 246.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Trailing
+          Text = '0,0'
+          TabOrder = 1
+        end
+      end
+      object Layout4: TLayout
+        Align = Top
+        Position.Y = 99.000000000000000000
+        Size.Width = 364.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Label4: TLabel
+          Align = Left
+          Size.Width = 105.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Text = ' POI'#21517#31216
+          TabOrder = 0
+        end
+        object Edit2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Right
+          TabOrder = 1
+          Position.X = 174.000000000000000000
+          Position.Y = 9.000000000000000000
+          Size.Width = 190.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Layout5: TLayout
+        Align = Top
+        Position.Y = 149.000000000000000000
+        Size.Width = 364.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object Label5: TLabel
+          Align = Left
+          Size.Width = 82.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Text = ' POI'#31867#22411
+          TabOrder = 0
+        end
+        object ComboBox1: TComboBox
+          Align = Right
+          Items.Strings = (
+            #23398#20064
+            #20303#23487
+            #39278#39135
+            #26381#21153
+            #34892#25919
+            #23089#20048)
+          ItemIndex = 0
+          Position.X = 246.000000000000000000
+          Position.Y = 9.000000000000000000
+          Size.Width = 118.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+        end
+      end
+      object Layout6: TLayout
+        Align = Bottom
+        Position.Y = 405.000000000000000000
+        Size.Width = 364.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        object Button2: TButton
+          Align = Center
+          TabOrder = 0
+          Text = #25552#20132
+          OnClick = Button2Click
+        end
+      end
+      object WebBrowser2: TWebBrowser
+        Align = Client
+        Size.Width = 364.000000000000000000
+        Size.Height = 206.000000000000000000
+        Size.PlatformDefault = False
+        URL = 'http://www.coolee.top/web/lonlatsearch.html'
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 122.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #26381#21153
+      ExplicitSize.cx = 109.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object GridPanelLayout1: TGridPanelLayout
+        Align = Client
+        Size.Width = 364.000000000000000000
+        Size.Height = 455.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 50.000000000000000000
+          end
+          item
+            Value = 50.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Button3
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = Button4
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = Button5
+            Row = 1
+          end
+          item
+            Column = 1
+            Control = Button6
+            Row = 1
+          end>
+        RowCollection = <
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000020000
+          end
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 24.999999999999980000
+          end>
+        object Button3: TButton
+          Align = Client
+          Size.Width = 182.000000000000000000
+          Size.Height = 113.750000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = #26597#30475#19978#20256'POI'
+          OnClick = Button3Click
+        end
+        object Button4: TButton
+          Align = Client
+          Size.Width = 182.000000000000000000
+          Size.Height = 113.750000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = #26657#36710#23454#26102#26597#35810
+          OnClick = Button4Click
+        end
+        object Button5: TButton
+          Align = Client
+          Size.Width = 182.000000000000000000
+          Size.Height = 113.750000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = #26234#24935#39184#39278
+          OnClick = Button5Click
+        end
+        object Button6: TButton
+          Align = Client
+          Size.Width = 182.000000000000000000
+          Size.Height = 113.750000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = #22270#20070#39302
+          OnClick = Button6Click
+        end
+      end
+    end
+  end
+  object Rectangle1: TRectangle
+    Align = Top
+    Size.Width = 364.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object Text1: TText
+      Align = Client
+      Size.Width = 364.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = #26524#22771#29983#27963#26381#21153
+      TextSettings.Font.Size = 26.000000000000000000
+    end
+  end
+  object Timer1: TTimer
+    Interval = 5000
+    OnTimer = Timer1Timer
+    Left = 280
+    Top = 8
+  end
+  object Timer2: TTimer
+    Enabled = False
+    OnTimer = Timer2Timer
+    Left = 320
+    Top = 8
+  end
+  object LocationSensor1: TLocationSensor
+    OnLocationChanged = LocationSensor1LocationChanged
+    Left = 24
+    Top = 10
+  end
+  object OrientationSensor1: TOrientationSensor
+    Active = True
+    OnSensorChoosing = OrientationSensor1SensorChoosing
+    Left = 24
+    Top = 108
+  end
+end
